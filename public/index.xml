@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>My New Hugo Project</title>
+		<title>The Blizblog</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content on My New Hugo Project</description>
+		<description>Recent content on The Blizblog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate>Tue, 25 Aug 2026 18:41:03 -0700</lastBuildDate>
+			<lastBuildDate>Tue, 25 Aug 2026 19:09:34 -0700</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Testing</title>
+				<link>http://localhost:1313/posts/testing/</link>
+				<pubDate>Tue, 25 Aug 2026 19:09:34 -0700</pubDate>
+				<guid>http://localhost:1313/posts/testing/</guid>
+				<description>&lt;h1 id=&#34;testing-testing&#34;&gt;Testing, Testing&lt;/h1&gt;&#xA;&lt;p&gt;Can anyone hear me?&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Welcome</title>
 				<link>http://localhost:1313/posts/welcome/</link>
