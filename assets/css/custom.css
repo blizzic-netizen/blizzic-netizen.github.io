@@ -6,7 +6,7 @@
   --font-family-summary: "Bricolage Grotesque", serif;
   --font-weight-summary: 500;
 
-  --dim-color: #696f7044;
+  --dim-color: #88888844;
   --hover-dim-color: #fff;
 
   --quote-text-color: #888;
@@ -25,12 +25,11 @@
 }
 
 :root[color-scheme^='dark'] {
-  --body-text-color: #e3f0f3;
-  --body-background-color: #3f494b;
+  --body-text-color: #f0efea;
+  --body-background-color: #222;
 
-  --primary-color: #6c9ee9;
-  --selection-color: #55e0f8;
+  --primary-color: #76dfec;
+  --selection-color: #41657d;
 
   --dim-opacity: 50%;
 }
-

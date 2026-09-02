@@ -1,4 +1,4 @@
-:root {
+main {
   --font-family-main: "Bricolage Grotesque", sans-serif;
   --font-weight-main: 500;
   --font-family-content: "Bricolage Grotesque", serif;
@@ -6,7 +6,7 @@
   --font-family-summary: "Bricolage Grotesque", serif;
   --font-weight-summary: 500;
 
-  --dim-color: #696f7044;
+  --dim-color: #88888844;
   --hover-dim-color: #fff;
 
   --quote-text-color: #888;
@@ -14,7 +14,7 @@
   --code-text-color: #f0efea;
 }
 
-:root[color-scheme^='light'] {
+main [color-scheme^='light'] {
   --body-text-color: #222;
   --body-background-color: #f0efea;
 
@@ -24,13 +24,12 @@
   --dim-opacity: 65%;
 }
 
-:root[color-scheme^='dark'] {
-  --body-text-color: #e3f0f3;
-  --body-background-color: #3f494b;
+main [color-scheme^='dark'] {
+  --body-text-color: #f0efea;
+  --body-background-color: #222;
 
-  --primary-color: #6c9ee9;
-  --selection-color: #55e0f8;
+  --primary-color: #67a5df;
+  --selection-color: #7d4141;
 
   --dim-opacity: 50%;
 }
-
